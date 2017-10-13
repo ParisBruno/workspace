@@ -5190,3 +5190,186 @@ Processing by PagesController#home as HTML
   Rendered layouts/_messages.html.erb (0.1ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 120ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/1" for 24.0.161.114 at 2017-10-13 14:44:46 +0000
+Cannot render console from 24.0.161.114! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (23.4ms)[0m  [1mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered recipes/show.html.erb within layouts/application (17.5ms)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 23.4ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/recipes/show.html.erb:3: syntax error, unexpected '<'
+<div class="row">
+ ^
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:4: syntax error, unexpected '<'
+  <div class="col-md-4 pull-right center">
+   ^
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:5: syntax error, unexpected '<'
+    <%= gravatar_for @recipe.chef ...
+     ^
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:26: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/recipes/show.html.erb:3: syntax error, unexpected '<'
+  app/views/recipes/show.html.erb:4: syntax error, unexpected '<'
+  app/views/recipes/show.html.erb:5: syntax error, unexpected '<'
+  app/views/recipes/show.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/recipes/show.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.1ms)
+
+
+Started GET "/recipes/1" for 24.0.161.114 at 2017-10-13 14:45:11 +0000
+Cannot render console from 24.0.161.114! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered recipes/show.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/recipes/show.html.erb:3: syntax error, unexpected '<'
+<div class="row">
+ ^
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:4: syntax error, unexpected '<'
+  <div class="col-md-4 pull-right center">
+   ^
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:5: syntax error, unexpected '<'
+    <%= gravatar_for @recipe.chef ...
+     ^
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:26: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/recipes/show.html.erb:3: syntax error, unexpected '<'
+  app/views/recipes/show.html.erb:4: syntax error, unexpected '<'
+  app/views/recipes/show.html.erb:5: syntax error, unexpected '<'
+  app/views/recipes/show.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/recipes/show.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.0ms)
+
+
+Started GET "/recipes/1" for 24.0.161.114 at 2017-10-13 14:45:31 +0000
+Cannot render console from 24.0.161.114! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered recipes/show.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/recipes/show.html.erb:3: syntax error, unexpected '<'
+<div class="row">
+ ^
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:4: syntax error, unexpected '<'
+  <div class="col-md-4 pull-right center">
+   ^
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:5: syntax error, unexpected '<'
+    <%= gravatar_for @recipe.chef ...
+     ^
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/recipes/show.html.erb:26: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/recipes/show.html.erb:3: syntax error, unexpected '<'
+  app/views/recipes/show.html.erb:4: syntax error, unexpected '<'
+  app/views/recipes/show.html.erb:5: syntax error, unexpected '<'
+  app/views/recipes/show.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/recipes/show.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPictureToRecipes (20171013151159)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "recipes" ADD "picture" varchar[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20171013151159"]]
+  [1m[36m (13.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 24.0.161.114 at 2017-10-13 16:01:27 +0000
+Cannot render console from 24.0.161.114! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 357ms (Views: 345.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/new" for 24.0.161.114 at 2017-10-13 16:03:15 +0000
+Cannot render console from 24.0.161.114! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#new as HTML
+  Rendered recipes/new.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (Missing partial shared/_page_title with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+    1: <%= render 'shared/page_title', title: "Create a new Recipe" %>
+    2: 
+    3: <%= render 'form' %>
+  app/views/recipes/new.html.erb:1:in `_app_views_recipes_new_html_erb__3188438634620561270_45429560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.1ms)
+  [1m[36mChef Load (1.7ms)[0m  [1mSELECT "chefs".* FROM "chefs"[0m
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes"
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."id" ASC LIMIT 1[0m
+
+
+Started GET "/recipes/new" for 24.0.161.114 at 2017-10-13 16:34:27 +0000
+Cannot render console from 24.0.161.114! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#new as HTML
+  Rendered recipes/new.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (Missing partial shared/_page_title with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+    1: <%= render 'shared/page_title', title: "Create a new Recipe" %>
+    2: 
+    3: <%= render 'form' %>
+  app/views/recipes/new.html.erb:1:in `_app_views_recipes_new_html_erb__3188438634620561270_45429560'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.1ms)
+
+
+Started GET "/recipes/1" for 24.0.161.114 at 2017-10-13 16:44:04 +0000
+Cannot render console from 24.0.161.114! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRecipe Load (0.5ms)[0m  SELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered recipes/show.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (Missing partial shared/_page_title with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+    1: <%= render 'shared/page_title', title: @recipe.name %>
+    2: 
+    3: <div class="row">
+    4:   <div class="col-md-4 pull-right center">
+  app/views/recipes/show.html.erb:1:in `_app_views_recipes_show_html_erb___3764959562166129766_42963440'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.9ms)
