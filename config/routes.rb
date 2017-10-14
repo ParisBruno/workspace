@@ -4,6 +4,18 @@ Rails.application.routes.draw do
   
   get '/home', to: 'pages#home'
 
-  resources :recipes
+  resources :recipes do
+    member do
+      post 'like'
+    end
+  end
   
+  resources :chefs, except: [:new]
+  
+  get '/register', to: 'chefs#new'
+  
+  get '/login', to: "logins#new"
+  post '/login', to: "login#create"
+  get '/logout', to: "logins#destroy"
+
 end
