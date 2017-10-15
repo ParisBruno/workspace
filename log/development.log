@@ -5373,3 +5373,1259 @@ ActionView::Template::Error (Missing partial shared/_page_title with {:locale=>[
   Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
   Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
   Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.9ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:17:35 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `logge_in?' for #<PagesController:0x0000000406cc38>):
+  app/controllers/pages_controller.rb:4:in `home'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.2ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:18:29 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (wrong number of arguments (4 for 0..3)):
+    11:        View Recipes as a Guest User
+    12:      </h3>   
+    13:     <h2 class="left">Browse and view recipes as a guest and Sign up later</h2>
+    14:     <p><%= link_to "Log in to your account", "", recipes_path, class: "btn btn-warning btn-small" %></p>
+    15:  </div>
+    16:  <div class="col-lg-4">
+    17:      <h3 class="midrow">
+  app/views/pages/home.html.erb:14:in `_app_views_pages_home_html_erb___617068480231834176_36248000'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:20:02 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (1.3ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 1463ms (Views: 1462.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom-79b60fb2a55d929a591ab0efa7795b35.css?body=1" for 81.82.96.213 at 2017-10-15 10:20:04 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-8eca606a2d2686fa75284ac7161e7f01.css?body=1" for 81.82.96.213 at 2017-10-15 10:20:04 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery-06e29fe56831942b4f21ce49e45e1429.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:04 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs-b58be681f2702254e79c46cdcbbc9616.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:04 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert-b393e4a3c7100b53fff3a72ca2563886.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:04 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix-47fdb29aafe4a822de223cafa771308d.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:04 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button-a2a5158d99c02fae2b04bc27d371a4b6.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:04 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse-2388931b28922c87b9d067e091918f79.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:04 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel-ab9494d16078563fa942fa36f51606ce.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:04 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab-b0e0085ddbe601df70783e3b00a44a66.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:05 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition-9486a84e28a255d97b73f24291099503.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:05 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy-3f18290693c0ab56cf81606aa54c14af.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:05 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown-a2d3f333085e0bc153c5d488f9c25beb.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:05 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal-8d7b95e2d768d4ece3faa24139930b0b.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:05 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip-f84ca665f20377fe06f80929f5951ab6.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:05 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover-05732afcfe8b7487e51d82ce3f8a0c14.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:05 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets-8424ed52c356487c7b529345da7d256c.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:05 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks-735ea91b7cbe061a1bea77b53a98158c.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:05 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application-a8ce216f248e22c467ce6aa30dd7ab36.js?body=1" for 81.82.96.213 at 2017-10-15 10:20:05 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:21:27 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 124ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 10:21:29 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `recipe' for #<RecipesController:0x007efc0d1a06c0>):
+  app/controllers/recipes_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.8ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 10:23:41 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `recipes' for #<RecipesController:0x00000003d55a18>):
+  app/controllers/recipes_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.3ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 10:24:38 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/recipes/index.html.erb:5: syntax error, unexpected '<'
+...reeze;@output_buffer.append=( <link_to "Recipes", recipes_pa...
+...                               ^):
+  app/views/recipes/index.html.erb:5: syntax error, unexpected '<'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.8ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 10:28:16 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Missing partial shared/_page_title with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ubuntu/workspace/app/views"
+):
+    1: <%= render 'shared/page_title', title: "All Recipes" %>
+    2: 
+    3: <ul class="nav nav-tabs">
+    4:   <li class='active'>
+  app/views/recipes/index.html.erb:1:in `_app_views_recipes_index_html_erb__1632862219943581915_69810501117640'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.9ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 10:33:34 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.5ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (0.8ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.4ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <% @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb__1632862219943581915_69810501117640'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.4ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 10:38:32 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.4ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (0.8ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 1.1ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <% @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb___2624473550254640053_29932760'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.6ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 10:39:38 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (0.8ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb___2624473550254640053_21378640'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.2ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 10:42:19 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (1.1ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.3ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb___2624473550254640053_35974240'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.8ms)
+  [1m[36mRecipe Load (0.8ms)[0m  [1mSELECT "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC[0m
+  [1m[35mRecipe Load (0.5ms)[0m  SELECT "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC
+  [1m[36mChef Load (0.4ms)[0m  [1mSELECT "chefs".* FROM "chefs"[0m
+  [1m[35mRecipe Load (0.5ms)[0m  SELECT "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "recipes" ("name", "summary", "description", "chef_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Chicken recipe"], ["summary", "Chicken summary for new recipe "], ["description", "Description for new recipe - Chicken"], ["chef_id", 2], ["created_at", "2017-10-15 10:53:18.694395"], ["updated_at", "2017-10-15 10:53:18.694395"]]
+  [1m[36m (12.5ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 10:53:26 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (1.0ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.3ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb___2624473550254640053_35974240'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.1ms)
+  [1m[35mRecipe Load (0.6ms)[0m  SELECT "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC
+  [1m[36mRecipe Load (0.6ms)[0m  [1mSELECT "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC[0m
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:56:17 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (1.2ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 215ms (Views: 214.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:56:23 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 123ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:56:28 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 118ms (Views: 117.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:56:30 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 114ms (Views: 113.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:56:33 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 120ms (Views: 119.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:56:33 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 121ms (Views: 120.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:56:34 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:56:34 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:56:34 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:56:35 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 10:56:36 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 10:56:39 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (0.9ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.2ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb___2624473550254640053_35974240'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.0ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 11:01:04 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (1.1ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.3ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb___2624473550254640053_35974240'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.8ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 11:03:39 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  Rendered recipes/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"chefs"} missing required keys: [:id]):
+     5:     <%= link_to "Recipes", recipes_path %>
+     6:   </li>
+     7:   <li>
+     8:     <%= link_to "Chefs", chef_path %>
+     9:   </li>
+    10: </ul>
+    11: 
+  app/views/recipes/index.html.erb:8:in `_app_views_recipes_index_html_erb___2624473550254640053_20273280'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.0ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 11:04:14 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (1.2ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.4ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb___2624473550254640053_13991880'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.4ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 11:05:37 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.4ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (0.9ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (17.4ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 1.4ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb__4086382696588174691_42581900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.3ms)
+  [1m[36mRecipe Load (0.6ms)[0m  [1mSELECT "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC[0m
+  [1m[35mRecipe Load (0.6ms)[0m  SELECT "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 11:12:00 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (0.8ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.3ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb__4086382696588174691_41965980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.6ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 11:12:01 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (0.8ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb__4086382696588174691_41965980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (39.8ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 11:12:01 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (1.1ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (10.7ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.4ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb__4086382696588174691_41965980'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.9ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 11:12:35 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.4ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (0.8ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (14.4ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 1.2ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb___2695199975187833063_39824900'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.1ms)
+
+
+Started GET "/login" for 81.82.96.213 at 2017-10-15 11:33:56 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginsController#new as HTML
+  Rendered logins/new.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/logins/new.html.erb:8: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+'.freeze;      + text_field_tag :email 
+                                 ^):
+  app/views/logins/new.html.erb:8: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (32.0ms)
+
+
+Started GET "/login" for 81.82.96.213 at 2017-10-15 11:34:47 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by LoginsController#new as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  Rendered logins/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.8ms)
+  Rendered layouts/_messages.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 236ms (Views: 235.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 81.82.96.213 at 2017-10-15 11:34:50 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 146ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 81.82.96.213 at 2017-10-15 11:34:53 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ChefsController#new as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  Rendered chefs/_form.html.erb (2.6ms)
+  Rendered chefs/new.html.erb within layouts/application (11.7ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.8ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/chefs/_form.html.erb:15: syntax error, unexpected ':', expecting ')'
+...efname.new_record? 'Register' : 'Edit profile', class: "btn ...
+...                               ^
+/home/ubuntu/workspace/app/views/chefs/_form.html.erb:15: syntax error, unexpected ',', expecting ')'
+...d? 'Register' : 'Edit profile', class: "btn btn-success") );...
+...                               ^
+/home/ubuntu/workspace/app/views/chefs/_form.html.erb:15: syntax error, unexpected ')', expecting keyword_end
+...e', class: "btn btn-success") );@output_buffer.safe_append='
+...                               ^):
+  app/views/chefs/_form.html.erb:15: syntax error, unexpected ':', expecting ')'
+  app/views/chefs/_form.html.erb:15: syntax error, unexpected ',', expecting ')'
+  app/views/chefs/_form.html.erb:15: syntax error, unexpected ')', expecting keyword_end
+  app/views/chefs/new.html.erb:3:in `_app_views_chefs_new_html_erb___2546263611651847341_45271500'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.0ms)
+
+
+Started GET "/recipes/1" for 24.0.161.114 at 2017-10-15 12:38:51 +0000
+Cannot render console from 24.0.161.114! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRecipe Load (0.7ms)[0m  SELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ?  ORDER BY "recipes"."update_at" DESC LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 1.2ms)
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ?  ORDER BY "recipes"."update_at" DESC LIMIT 1):
+  app/controllers/recipes_controller.rb:61:in `set_recipe'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.8ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 17:23:40 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "recipes"[0m
+  [1m[35mRecipe Load (0.8ms)[0m  SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0
+  Rendered recipes/index.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 1.4ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb___2695199975187833063_43663760'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.6ms)
+
+
+Started GET "/recipes" for 81.82.96.213 at 2017-10-15 17:24:26 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.6ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (0.9ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (22.3ms)
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 1.4ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb__3430443515550862299_43654680'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.2ms)
+
+
+Started GET "/recipes/1" for 81.82.96.213 at 2017-10-15 17:39:41 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mRecipe Load (0.8ms)[0m  SELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ?  ORDER BY "recipes"."update_at" DESC LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 1.3ms)
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ?  ORDER BY "recipes"."update_at" DESC LIMIT 1):
+  app/controllers/recipes_controller.rb:61:in `set_recipe'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.0ms)
+
+
+Started GET "/recipes/1" for 81.82.96.213 at 2017-10-15 17:41:26 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/recipes/1"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.0ms)
+  [1m[36mRecipe Load (0.7ms)[0m  [1mSELECT "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC[0m
+
+
+Started GET "/recipes/" for 81.82.96.213 at 2017-10-15 17:51:11 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "recipes"[0m
+  [1m[35mRecipe Load (0.8ms)[0m  SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0
+  Rendered recipes/index.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 1.3ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb__3430443515550862299_45942780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.4ms)
+
+
+Started GET "/recipes/" for 81.82.96.213 at 2017-10-15 17:53:32 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "recipes"[0m
+  Rendered recipes/index.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipe.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb__3430443515550862299_45763140'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.3ms)
+
+
+Started GET "/recipes/" for 81.82.96.213 at 2017-10-15 17:53:47 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (0.7ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb__3430443515550862299_46860780'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.1ms)
+
+
+Started GET "/recipes/" for 81.82.96.213 at 2017-10-15 17:58:01 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `All' for #<Class:0x000000051e8020>):
+  app/controllers/recipes_controller.rb:7:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.0ms)
+
+
+Started GET "/recipes/" for 81.82.96.213 at 2017-10-15 17:58:21 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[35mRecipe Load (0.9ms)[0m  SELECT "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC
+  Rendered recipes/index.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (undefined method `total_pages' for #<Recipe::ActiveRecord_Relation:0x0000000567b8d0>):
+     9:   </li>
+    10: </ul>
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipesexit.each do |recipe| %>
+    15:   <div class="row">
+  app/views/recipes/index.html.erb:12:in `_app_views_recipes_index_html_erb__3430443515550862299_45277420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.1ms)
+
+
+Started GET "/recipes/" for 81.82.96.213 at 2017-10-15 17:59:06 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (16.7ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/recipes/index.html.erb:15: syntax error, unexpected '<', expecting ')'
+  <div class="row">
+   ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:17: syntax error, unexpected '<'
+    <div class="col-md-2">
+     ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:18: syntax error, unexpected '<'
+      <section class="chef_info center">
+       ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:20: syntax error, unexpected '<', expecting ')'
+       <h5>Chef name: '.freeze;@outpu...
+        ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:20: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+       <h5>Chef name: '.freeze;@output_buffer.appe...
+                     ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:21: unknown regexp options - ct
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:22: syntax error, unexpected '<'
+    </div>
+     ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:25: unknown regexp option - h
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:25: syntax error, unexpected tINTEGER, expecting ')'
+...output_buffer.safe_append='</h4>
+...                               ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:28: unknown regexp options - all
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:28: syntax error, unexpected '<'
+...er.safe_append=' ago, </small></span>
+...                               ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:29: unknown regexp options - all
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:29: syntax error, unexpected '<'
+...ffer.safe_append=' ago</small></span>
+...                               ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:30: unknown regexp option - p
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:31: syntax error, unexpected '<'
+         <div class="pull-right"
+          ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:33: syntax error, unexpected '<', expecting ')'
+         <i class="glyphicon glyphicon-...
+          ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:33: syntax error, unexpected '<'
+...lyphicon glyphicon-thumbs-up"></i> &nbsp '.freeze;@output_bu...
+...                               ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:36: syntax error, unexpected &
+...n glyphicon-thumbs-down"></i> &nbsp '.freeze;@output_buffer....
+...                               ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:39: unknown regexp options - dv
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:40: syntax error, unexpected '<'
+    <div class="col-md-4">
+     ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+    </div>
+     ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:44: unknown regexp options - dv
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:45: syntax error, unexpected '<'
+  <hr/>
+   ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:48: unterminated string meets end of file
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:48: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/recipes/index.html.erb:15: syntax error, unexpected '<', expecting ')'
+  app/views/recipes/index.html.erb:17: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:18: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:20: syntax error, unexpected '<', expecting ')'
+  app/views/recipes/index.html.erb:20: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+  app/views/recipes/index.html.erb:21: unknown regexp options - ct
+  app/views/recipes/index.html.erb:22: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:25: unknown regexp option - h
+  app/views/recipes/index.html.erb:25: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/recipes/index.html.erb:28: unknown regexp options - all
+  app/views/recipes/index.html.erb:28: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:29: unknown regexp options - all
+  app/views/recipes/index.html.erb:29: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:30: unknown regexp option - p
+  app/views/recipes/index.html.erb:31: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:33: syntax error, unexpected '<', expecting ')'
+  app/views/recipes/index.html.erb:33: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:36: syntax error, unexpected &
+  app/views/recipes/index.html.erb:39: unknown regexp options - dv
+  app/views/recipes/index.html.erb:40: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+  app/views/recipes/index.html.erb:44: unknown regexp options - dv
+  app/views/recipes/index.html.erb:45: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:48: unterminated string meets end of file
+  app/views/recipes/index.html.erb:48: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (39.0ms)
+
+
+Started GET "/recipes/" for 81.82.96.213 at 2017-10-15 18:00:15 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered recipes/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/recipes/index.html.erb:15: syntax error, unexpected '<', expecting ')'
+  <div class="row">
+   ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:17: syntax error, unexpected '<'
+    <div class="col-md-2">
+     ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:18: syntax error, unexpected '<'
+      <section class="chef_info center">
+       ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:20: syntax error, unexpected '<', expecting ')'
+       <h5>Chef name: '.freeze;@outpu...
+        ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:20: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+       <h5>Chef name: '.freeze;@output_buffer.appe...
+                     ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:21: unknown regexp options - ct
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:22: syntax error, unexpected '<'
+    </div>
+     ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:25: unknown regexp option - h
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:25: syntax error, unexpected tINTEGER, expecting ')'
+...output_buffer.safe_append='</h4>
+...                               ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:28: unknown regexp options - all
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:28: syntax error, unexpected '<'
+...er.safe_append=' ago, </small></span>
+...                               ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:29: unknown regexp options - all
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:29: syntax error, unexpected '<'
+...ffer.safe_append=' ago</small></span>
+...                               ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:30: unknown regexp option - p
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:31: syntax error, unexpected '<'
+         <div class="pull-right"
+          ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:33: syntax error, unexpected '<', expecting ')'
+         <i class="glyphicon glyphicon-...
+          ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:33: syntax error, unexpected '<'
+...lyphicon glyphicon-thumbs-up"></i> &nbsp '.freeze;@output_bu...
+...                               ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:36: syntax error, unexpected &
+...n glyphicon-thumbs-down"></i> &nbsp '.freeze;@output_buffer....
+...                               ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:39: unknown regexp options - dv
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:40: syntax error, unexpected '<'
+    <div class="col-md-4">
+     ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+    </div>
+     ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:44: unknown regexp options - dv
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:45: syntax error, unexpected '<'
+  <hr/>
+   ^
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:48: unterminated string meets end of file
+/home/ubuntu/workspace/app/views/recipes/index.html.erb:48: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/recipes/index.html.erb:15: syntax error, unexpected '<', expecting ')'
+  app/views/recipes/index.html.erb:17: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:18: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:20: syntax error, unexpected '<', expecting ')'
+  app/views/recipes/index.html.erb:20: syntax error, unexpected tLABEL, expecting keyword_do or '{' or '('
+  app/views/recipes/index.html.erb:21: unknown regexp options - ct
+  app/views/recipes/index.html.erb:22: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:25: unknown regexp option - h
+  app/views/recipes/index.html.erb:25: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/recipes/index.html.erb:28: unknown regexp options - all
+  app/views/recipes/index.html.erb:28: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:29: unknown regexp options - all
+  app/views/recipes/index.html.erb:29: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:30: unknown regexp option - p
+  app/views/recipes/index.html.erb:31: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:33: syntax error, unexpected '<', expecting ')'
+  app/views/recipes/index.html.erb:33: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:36: syntax error, unexpected &
+  app/views/recipes/index.html.erb:39: unknown regexp options - dv
+  app/views/recipes/index.html.erb:40: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:42: syntax error, unexpected '<', expecting ')'
+  app/views/recipes/index.html.erb:44: unknown regexp options - dv
+  app/views/recipes/index.html.erb:45: syntax error, unexpected '<'
+  app/views/recipes/index.html.erb:48: unterminated string meets end of file
+  app/views/recipes/index.html.erb:48: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.1ms)
+
+
+Started GET "/recipes/" for 81.82.96.213 at 2017-10-15 18:01:19 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "recipes"[0m
+  [1m[35mRecipe Load (0.9ms)[0m  SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0
+  Rendered recipes/index.html.erb within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 1.5ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb__3430443515550862299_47863880'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.9ms)
+  [1m[36mRecipe Load (0.6ms)[0m  [1mSELECT "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/recipes/" for 81.82.96.213 at 2017-10-15 18:20:54 +0000
+Cannot render console from 81.82.96.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as HTML
+  Rendered shared/_page_title.html.erb (0.5ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "recipes"
+  [1m[36mRecipe Load (0.9ms)[0m  [1mSELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0[0m
+  Rendered recipes/index.html.erb within layouts/application (22.1ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 1.3ms)
+
+ActionView::Template::Error (SQLite3::SQLException: no such column: recipes.update_at: SELECT  "recipes".* FROM "recipes"  ORDER BY "recipes"."update_at" DESC LIMIT 6 OFFSET 0):
+    11: 
+    12: <%= will_paginate %>
+    13: 
+    14: <%= @recipes.each do |recipe| %>
+    15:   <div class="row">
+    16:   
+    17:     <div class="col-md-2">
+  app/views/recipes/index.html.erb:14:in `_app_views_recipes_index_html_erb___162092146868699306_31113760'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.2.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.7ms)

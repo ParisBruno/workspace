@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
     @current_user ||= Chef.find(session[:chef_id]) if session[:chef_id]  
   end
   
-  def logged_in
+  def logged_in?
     !!current_user
   end
   
@@ -17,7 +17,6 @@ class ApplicationController < ActionController::Base
     if !logged_in?
       flash[:danger] = "You must be logged in to perform that action"
       redirect_to :back
-      
     end
   end
 

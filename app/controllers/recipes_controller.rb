@@ -1,10 +1,10 @@
 class RecipesController < ApplicationController
-  before_action :set_recipe, only [:edit, :update, :show, :like]
+  before_action :set_recipe, only: [:edit, :update, :show, :like]
   before_action :require_user, except: [:show, :index]
   before_action :require_same_user, only: [:edit, :update]
   
   def index
-    @recipes = recipe.paginate(page: params[:page], per_page: 6)
+    @recipes = Recipe.paginate(page: params[:page], per_page: 6)
   end
   
   def show
@@ -29,7 +29,7 @@ class RecipesController < ApplicationController
   end
   
   def edit
-   end
+  end
   
   def update
     if @recipe.update(recipe_params)
@@ -43,13 +43,13 @@ class RecipesController < ApplicationController
 def like
   Like.create(like: params[:like], chef: current_user, recipe: @recipe)
     if like.valid?
-   flash[success] = "your selection was succesful"
-   redirect_to :back
-  else
-    flash[:danger] = "you can only like/dislike a recipe once"
-    redirect_to :back
-  end
- end
+      flash[success] = "your selection was succesful"
+      redirect_to :back
+    else
+      flash[:danger] = "you can only like/dislike a recipe once"
+      redirect_to :back
+    end
+end
 
  private
   

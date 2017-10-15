@@ -1,14 +1,14 @@
 class LoginsController < ApplicationController
   
   def new
-      
+  
   end
   
   def create
-   chef = chef.find_by(email: params[:email])
+   chef = Chef.find_by(email: params[:email])
    if chef && chef.authenticate(params[:password])
       session[:chef_id] = chef.id
-      flash[success] = "You are logged in"   
+      flash[:success] = "You are logged in"   
       redirect_to recipes_path
     else
       flash.now[:danger] = "Your email adress or password does not match"
