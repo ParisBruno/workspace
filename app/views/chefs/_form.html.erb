@@ -1,4 +1,4 @@
-<%= render 'shared/errors', obj: @recipe %>
+<%= render 'shared/errors', obj: @chef %>
 
 <div class="row">
   <div class="well col-md-8 col-md-offset-2">
@@ -12,7 +12,7 @@
       <%= f.label :password %>
       <%= f.password_field :password %>
       
-      <%= f.submit(@chefname.new_record? 'Register' : 'Edit profile', class: "btn btn-success") %>
+      <%= f.submit(@chef.new_record? ? 'Register' : 'Edit profile', class: "btn btn-success") %>
     <% end %>
   </div>
 </div>
