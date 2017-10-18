@@ -51,6 +51,6 @@ class ChefsController < ApplicationController
     if current_user != @chef
       flash[:danger] = "You can only edit your own profile"
       redirect_to root_path
-     end   
-   end
+    end 
+  end
 end
