@@ -1,28 +1,28 @@
 class IngredientsController < ApplicationController
-   before_action :require_user, except: [:show]
-  
+ before_action :require_user, except: [:show]
+ 
  def show
-  @ingredient = Ingredient.find(params[:id])
-  @recipes = @ingredient.recipes.paginate(page: params[:page],per_page: 4)
+   @ingredient = Ingredient.find(params[:id])
+   @recipes = @ingredient.recipes.paginate(page: params[:page], per_page: 4)
  end
  
  def new
-  @ingrewdient = Ingredient.new  
- end 
+   @ingredient = Ingredient.new  
+ end  
  
  def create
-   @ingredient = Ingredient.new(ing.params)
+   @ingredient = Ingredient.new(ing_params)
    if @ingredient.save
      flash[:success] = "Ingredient was created successfully"
-     redirect_to recipe_path
+     redirect_to recipes_path
    else
-    render 'new' 
+     render 'new' 
    end
  end
  
  private
  
  def ing_params
-   params.require(:ingredient).permit(:none)
+   params.require(:ingredient).permit(:name)
  end 
 end

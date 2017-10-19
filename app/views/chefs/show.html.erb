@@ -8,13 +8,11 @@
 </div>
 
 <div class="row">
-  <div class;"col-md-4-clo-md-offset-4 center">
-    <h3><em>Recipes:</em></h3>
-    <%=will paginate @recipes %>
+  <div class:"col-md-4-clo-md-offset-4 center">
+    <center><h3><em>Recipes provided by <%= @chef.chefname %></em></h3></center>
   </div>
 </div>
-
-<%@recipe.each do |recipe| %>
+<% @recipes.each do |recipe| %>
 <div class="row">
   <div class="col-lg-6 well col-lg-offset-3">
     <h4><%= link_to recipe.name, recipe_path(recipe) %></h4>
@@ -24,6 +22,7 @@
       <span class="quiet"><small> updated: <%= time_ago_in_words(recipe.updated_at) %> ago</small></span>
       </p>
       <div class="pull-right">
+        <%= button_to "Delete recipe", recipe, :confirm => "Are you sure?", :method => "delete" %>
         <%= link_to like_recipe_path(recipe, like: true), method: :post do %>
           <i class="glyphicon glyphicon-thumbs-up"></i> &nbsp; <%= recipe.thumbs_up_total %>
         <% end %> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -33,4 +32,5 @@
       </div>
     </div>
   </div>
+  
 <% end %>

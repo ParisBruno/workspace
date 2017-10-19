@@ -40,6 +40,13 @@ class RecipesController < ApplicationController
       render :edit
     end
   end
+  
+  def destroy
+     @recipe = Recipe.find(params[:id])
+     @recipe.destroy
+     flash[:success] = "Recipe removed!"
+     redirect_to recipes_path
+  end
 
   def like
     like = Like.create(like: params[:like], chef: current_user, recipe: @recipe)

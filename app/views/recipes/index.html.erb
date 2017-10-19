@@ -16,16 +16,17 @@
 
    <div class="col-md-2">
     <section class="chef_info center">
-      <%= link_to gravatar_for(recipe.chef, size: 100), chef_path(recipe.chef) %>
-      <h5>Chef name: <%= recipe.chef.chefname %></h5>
+
+      <h2><%=link_to ("Chef name: " + recipe.chef.chefname), chef_path(recipe.chef) %></h2>
     </section>
   </div>
 
   <div class="col-lg-6 well">
+    
     <h4><%= link_to recipe.name, recipe_path(recipe) %></h4>
     <p><%= recipe.summary %></p>
-    <p>Styles: <%= render recipe.styles%></p>
-    <p>Ingredients: <%= render recipe.ingredients%></p>
+    <p>Styles: <%= render recipe.styles %></p>
+    <p>Ingredients: <%= render recipe.ingredients %></p>
     <p>
       <span class="quiet"><small> created: <%= time_ago_in_words(recipe.created_at) %> ago</small></span>
       <span class="quiet"><small> updated: <%= time_ago_in_words(recipe.updated_at) %> ago</small></span>
@@ -40,11 +41,9 @@
     </div>
   </div>
   <div class="col-md-4">
-    <%= image_tag(recipe.picture.url, size: '250x150', class: 'gravatar') if recipe.picture? %>
+    <%=image_tag(recipe.picture.url, size: '250x150', class: 'gravatar') if recipe.picture? %>
   </div>
-
- </div>
-
+  </div>
 <% end %>
 
 <%= will_paginate %>
