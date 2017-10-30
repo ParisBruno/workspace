@@ -3,9 +3,11 @@ $light-orange: #ff8c00;
 $navbar-default-color:#337ab7; 
 //$light-orange;
 
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+// --> css from the app
 
 #logo {
   margin-top: 10px;
@@ -40,7 +42,6 @@ body {
   float: left;
   margin-top: 20px;
 }
-
 
 .center {
   text-align: center;
