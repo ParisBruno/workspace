@@ -43,8 +43,7 @@ class RecipesController < ApplicationController
   end
   
   def destroy
-     @recipe = Recipe.find(params[:id])
-     @recipe.destroy
+     @recipe = Recipe.find(params[:id]).destroy
      flash[:success] = "Recipe removed!"
      redirect_to recipes_path
   end
@@ -69,24 +68,32 @@ class RecipesController < ApplicationController
   private
    
     def recipe_params
-      params.require(:recipe).permit(:name, :summary, :description, :picture, :style_id, :ingredient_id)
+      params.require(:recipe).permit(:name, :summary, :description, :picture, style_ids: [], ingredient_ids:[])
     end
 
     def set_recipe
       @recipe = Recipe.find(params[:id])
     end
-
-    def require_same_user_like
+    
+    def require_same_user
       if current_user != @recipe.chef and !current_user.admin?
         flash[:danger] = "You can only edit your own recipes"
-        redirect_to :recipes_path
+        redirect_to recipes_path
       end
     end
+    
+
+    # def require_same_user_like
+    #   if current_user != @recipe.chef and !current_user.admin?
+    #     flash[:danger] = "You can only edit your own recipes"
+    #     redirect_to recipes_path
+    #   end
+    # end
 
     def require_user_like
       if !logged_in?
         flash[:danger] = "You must be logged in to perform this action"
-        redirect_to :recipes_path
+        redirect_to recipes_path
       end
     end
     

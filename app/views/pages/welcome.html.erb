@@ -9,10 +9,25 @@
 <body id="b1">
 <header id="h1"></header>
 <div class="container">
-<%= link_to image_tag('welcome-page-989-x-548-px-HQ.jpg', class: 'img'), url_for({:controller => 'pages', :action => 'index'}) %>
-<!--<img src='welcome.png'>-->
-<div class="bg"></div>
+<div id="bg">
+<!--link_to image_tag('welcome-page-989-x-548-px-HQ.jpg', class: 'img'), url_for({:controller => 'pages', :action => 'index'}) %>-->
+<div id="box">  <br><br>
+<h3 id="welcome-font">Welcome to</h3>
+<h1 id="welcome-font">Bruno</h1>
+<h2 id="welcome-font">Top Recipes</h2>
+</div>
+  <center id="welcome-font"> 
 
+  <div id="enter">
+  <%=link_to 'Enter',url_for({:controller => 'pages', :action => 'index'}) %>
+  <!--< if logged_in? %>-->
+  <!--<= current_user.chefname %>-->
+  <!--< else %>-->
+  <!--<strong><= 'Guest' %></strong>-->
+  <!--<end%>-->
+  <!--</div>-->
+  </center>
+</div>
 
 <div class="footer2">
   <p>&copy; iTopRecipes.com 2017</p>

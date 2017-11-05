@@ -7,23 +7,66 @@
 </head>
 <body id="b1">
 <header id="h1"></header>
-<section id="showcase">
+
 
 <div class="container">
-<div id="message"></div>
-  <p>View recipes as a guest <br>
-Sign up to receive  <br>
-top weekly recipes</p>
 
-  <h1><%= link_to 'Create account', register_path %></h1><br>
-
-  <h1><%= link_to 'Login', recipes_path %></h1>
-  </div>
+<section id="showcase">
 </section>
+<div id="message">
+  <p id="p1">Hi, welcome!<br>
+A good cookbook is a platform to recount stories of good times, maintain traditions and create new. Join me as a guest then start building your iTopRecipes masterpiece.
+Sharing my skills and tips, I aim to boost the variety of delicious meals home cooks can prepare using <a href="#2min" data-toggle="collapse">(Read more, 1 min)</a>
+<div id="2min" class="collapse">
+</p>
+<p id="p1">
+mostly one pot one skillet and raw foods from the supermarkets weekly fliers. Food is our fuel and cooking an action regardless if you consider it art or craft.
+</p><br></br>
 
+<p id="p1">
+  My first summer job as a teen was making artisanal gelato, I have been in foods service ever since. I was blessed to work in high-end hotel and resorts throughout the world with top Chefs and mentors, luckily not yellers as in some TV shows.
+</p>
+<p id="p1">
+I built my open kitchen restaurant and received many media rave reviews including three stars articles. As a pioneer in the home replacement all-natural meals in the 90’s, I shipped mail order boxes of fully cooked delicious meals packaged in eco-friendly containers to homes. Here a good-news article <a href="#">2-minutes read.</a>
+</p>
+
+<p id="p1">
+Look forward to being your resource and to many great meals.</br>
+Bruno
+</p>
+</div>
+<div class="container">
+
+  <div id="btn">
+  <h1><%= link_to 'Continue as Guest', recipes_path, {:style=>'color:rgb(0,112,192);', :id => "btn"} %></h1>
+  </div>
+  <div id="btn">
+  <h1><%= link_to 'Signup', register_path, {:style=>'color:rgb(0,112,192);', :id => "btn"} %></h1>
+  </div>
+    <p id="lgp">
+      To use the recipes, receive the new one and ask for tips.<br> 
+      *We never share your contact information.<br>
+      ** We do no place banners, dropdowns, 
+      or strolling ads <br>of any kind in your iTopRecipe app.<br>
+
+  </p>
+  <div id="btn">
+  <h1><%= link_to 'Login', recipes_path, {:style=>'color:rgb(0,112,192);', :id => "btn"} %></h1>
+  </div>
+</div>
+<div id="list">
+  <h4>Buy Your iTopRecipes™:</h4>
+  <ul id="packages">
+	<li>&#10004 Family & Friends</li>
+	<li>&#10004 Professionals </li>
+	<li>&#10004 Businesses</li>
+	<li>&#10004 Amateurs</li>
+  </ul>
+</div>
+<div class="container">
 <div class="footer3">
   <p>&copy; iTopRecipes.com 2017</p>
 </div>
-
+</div>
 </body>
 </html>

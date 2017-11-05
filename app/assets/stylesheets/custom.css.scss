@@ -1,6 +1,6 @@
 $navbar-default-bg: #312312;
 $light-orange: #ff8c00;
-$navbar-default-color:#337ab7; 
+$navbar-default-color:#337ab7;
 //$light-orange;
 
 @import "bootstrap-sprockets";
@@ -9,13 +9,46 @@ $navbar-default-color:#337ab7;
 
 // --> css from the app
 
+// .container{
+//   width:100;
+//   margin:auto;
+//   /*overflow: hidden;*/
+// }
+
+#main_header {
+//   width: 100%;
+//   height: 6%;
+   background: url(header.png) center center no-repeat;
+   background-size: cover;
+}
+
+.headroom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .2s ease-in-out;
+}
+.headroom--unpinned {
+  top: -100px;
+}
+.headroom--pinned {
+  top: 0;
+}
+
+.navbar-fixed-top{
+  
+}
+
 #logo {
   margin-top: 10px;
   margin-bottom: 10px;
   float: left;
   margin-right: 10px;
   font-size: 2em;
-  color: #040D71;
+  //color: #040D71; orginal
+  //color:#337ab7;
+  color:white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -38,6 +71,7 @@ body {
 }
 
 .nav_ul_item {
+  list-style: none;
   padding-left: 25px;
   float: left;
   margin-top: 20px;
@@ -114,3 +148,43 @@ span.picture {
 .show_recipe {
   margin: 10px 10px 10px 10px;
 }
+
+/* (1366x768) WXGA Display */
+@media  screen and (min-device-width: 1366px) {
+
+header {
+  width: 100%;
+  height: 13%;
+  background: url(header.png) center center no-repeat;
+  background-size: cover;
+}
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  
+  header {
+  width: 100%;
+  height: 13%;
+  background: url(header.png) center center no-repeat;
+  background-size: cover;
+  }
+  } 
+  
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  
+  header {
+  width: 100%;
+  height: 13%;
+  background: url(header.png) center center no-repeat;
+  background-size: cover;
+  }
+  }

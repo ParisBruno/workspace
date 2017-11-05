@@ -1,10 +1,42 @@
-
-
 .container{
-  width:95%;
+  width:100%;
   margin:auto;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
+#enter{
+  display:block;
+  opacity: 30;
+  width: 20%;
+}
+#bg{
+  min-height: 400px;
+  background-image: url('welcome-mobile.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#bg header{
+  margin-top: 5px;
+}
+#box{
+  min-height:100px;
+  display:block;
+  border-radius: 35px;
+  width: 70%;
+  margin-left:15%;
+}
+#welcome-font{
+  font-size: 36px;
+  font-family: Garamond;
+  color:white;
+  text-shadow:
+  -1px -1px 0 blue,
+  1px -1px 0 blue,
+  -1px 1px 0 blue,
+  1px 1px 0 blue;  
+}
+
+
 #h1{
   margin-bottom:35px;
   background-color: white;
@@ -16,22 +48,43 @@
   background-color: white;
 }
 #showcase{
-  min-height: 400px;
-  background-image: url('login2.png');
+  min-height: 200px;
+  background-image: url('cooking-mobile2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
 }
-#box{
-  max-width: 940px;
-  margin: -800px auto;
-  padding:0 5%;
-}
+
 
 a:link{
-  font:15px/1.5 Arial, Helvetica, Sans-serif;
-  text-align: center;
+  line-height: 0%;
+  font:12px black Garamond;
+  text-align: left;
   text-decoration: none;
+}
+#enter a{
+  font-size: 36px;
+  font-family: Garamond;
+  color:white;
+  text-shadow:
+  -1px -1px 0 blue,
+  1px -1px 0 blue,
+  -1px 1px 0 blue,
+  1px 1px 0 blue;  
+}
+#btn
+{
+  font-size:26px;
+  text-align: left;
+  color: rgb(0,112,192);
+  border-radius: 35px;
+  /*background-color:#193012;*/
+  /*opacity: 0.3;*/
+}
+#lgp{
+  text-align: center;
+  font-size:16px;
+  font-family: Garamond;
 }
 .img{
   display:block;
@@ -41,44 +94,21 @@ a:link{
   /*box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);*/
 }
 #message{
-  display: block;
-  background-color:#193012;
-  opacity: 0.3; 
-  margin-top: 50px;
-  border-radius: 35px;
-  /*height: 150px;
-  width: 300px;
-  position: relative;
-  margin: 0 0 200px 0;*/
-}
-#message p{/*
-  margin-top: 50px;
-  margin-left: 80px;
-  font-size: 25px;*/
-  color:rgb(255,255,255);
-  font-family: Garmond;
+  width:100%;
 }
 
-
-#btn_login
+#p1{
+  margin:2px;
+  font-size:16px;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  /*background-color: #f4f5f0;*/
+  border-radius: 1.5%;
+}
+#2min
 {
-  border-radius: 35px;
-  display: block;
-  height: 100px;
-  width: 200px;
-  background-color:#193012;
-  opacity: 0.3;
-}
-
-#btn_register
-{
-  border-radius: 35px;
-  display: block;
-  height: 100px;
-  width: 200px;
-  background-color:#193012;
-  opacity: 0.3;
-  margin-top: 75px;
+  font-size:12px;
+  font-family: Garamond;
+  color: rgb(0,112,192);
 }
 
 .footer2 {
@@ -90,6 +120,20 @@ a:link{
   /*height: 50px;*/
   
 }
+#list{
+  display: block;
+  width:80%;
+}
+#list h4{
+  color: rgb(0,112,192);
+}
+#packages{
+  text-align: left;
+  list-style: none;
+  font-size:15px;
+  color: rgb(0,112,192);
+  font-family: Garamond;
+}
 
 /* (1366x768) WXGA Display */
 @media  screen and (min-device-width: 1366px) {
@@ -97,20 +141,54 @@ a:link{
   .container{
   width:100%;
   background-position: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
   }
-  #showcase{
-  min-height: 600px;
+  
+  #bg{
+  min-height:800px;
+  height:100%;
+  width:100%;
+  margin:auto;
+  background-image: url('welcome-page-989-x-548-px-HQ.jpg');
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-}
+  }
+  #showcase{
+  min-height: 450px;
+  background-image: url('cooking-new.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  }
   .img{
     display:block;
     max-width:100%;
     margin-left: 350px;
     background-repeat: no-repeat;
     height:auto;
+  }
+  #welcome-font{
+  font-size:90px;
+  font-family: Garamond;
+  color:white;
+  text-shadow:
+  -1px -1px 0 blue,
+  1px -1px 0 blue,
+  -1px 1px 0 blue,
+  1px 1px 0 blue;  
+  }
+  #enter{
+  font-size:90px;
+  margin-top:300px;
+  display:block;
+  opacity: 30;
+  color:white;
+  }
+  #enter a:link{
+    color:#255255255;
+    font-size:90px;
+    text-decoration: none;
   }
   .footer2 {
   width:49%;
@@ -126,8 +204,36 @@ a:link{
   border-top: 1px solid #eaeaea;
   color: #777;
   }
+  
+  #message{
+  width:90%;
+  }
+
+  #p1{
+  margin: 1% 4% 1% 15%;
+  font-size:16px;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  /*background-color: #f4f5f0;*/
+  border-radius: 1.5%;
+  }
+
+  #list{
+  display: block;
+  margin-left:42%;
+  width:25%;
+  }
+  #list h4{
+  color: rgb(0,112,192);
+  }
+  #packages{
+  text-align: left;
+  list-style: none;
+  font-size:15px;
+  color: rgb(0,112,192);
+  font-family: Garamond;
+  }
     
-}
+  }
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen 
@@ -137,20 +243,36 @@ a:link{
   .container{
   width:100%;
   background-position: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
   }
-  #showcase{
-  min-height: 600px;
+  #bg{
+  min-height:800px;
+  height:100%;
+  width:100%;
+  margin:auto;
+  background-image: url('welcome-page-989-x-548-px-HQ.jpg');
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-}
+  }
+  #showcase{
+  min-height: 450px;
+  background-image: url('cooking-new.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  }
+  #enter{
+  margin-top:300px;
+  display:block;
+  opacity: 30;
+  }
   .img{
-    display:block;
-    max-width:100%;
+  display:block;
+  max-width:100%;
 
-    background-repeat: no-repeat;
-    height:auto;
+  background-repeat: no-repeat;
+  height:auto;
   }
   .footer2 {
   width:49%;
@@ -166,7 +288,35 @@ a:link{
   border-top: 1px solid #eaeaea;
   color: #777;
   }
-}
+  
+  #message{
+  width:90%;
+  }
+
+  #p1{
+  margin: 1% 4% 1% 15%;
+  font-size:16px;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  /*background-color: #f4f5f0;*/
+  border-radius: 1.5%;
+  }
+
+  #list{
+  display: block;
+  margin-left:42%;
+  width:25%;
+  }
+  #list h4{
+  color: rgb(0,112,192);
+  }
+  #packages{
+  text-align: left;
+  list-style: none;
+  font-size:15px;
+  color: rgb(0,112,192);
+  font-family: Garamond;
+  }
+  }
 
 /* ----------- Retina Screens ----------- */
 @media screen 
@@ -177,14 +327,30 @@ a:link{
   .container{
   width:100%;
   background-position: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
   }
-  #showcase{
-  min-height: 600px;
+  #bg{
+  min-height:800px;
+  height:100%;
+  width:100%;
+  margin:auto;
+  background-image: url('welcome-page-989-x-548-px-HQ.jpg');
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-}
+  }
+  #showcase{
+  min-height: 450px;
+  background-image: url('cooking-new.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  }
+  #enter{
+  margin-top:300px;
+  display:block;
+  opacity: 30;
+  }
   .img{
     display:block;
     max-width:100%;
@@ -205,5 +371,34 @@ a:link{
   margin-top: 35px;
   border-top: 1px solid #eaeaea;
   color: #777;
+  }
+  
+  #message{
+  width:90%;
+  }
+
+  #p1{
+  margin: 1% 4% 1% 15%;
+  font-size:16px;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  /*background-color: #f4f5f0;*/
+  border-radius: 1.5%;
+
+  }
+
+  #list{
+  display: block;
+  margin-left:42%;
+  width:25%;
+  }
+  #list h4{
+  color: rgb(0,112,192);
+  }
+  #packages{
+  text-align: left;
+  list-style: none;
+  font-size:15px;
+  color: rgb(0,112,192);
+  font-family: Garamond;
   }
 }
